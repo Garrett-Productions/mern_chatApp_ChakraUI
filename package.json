@@ -1,0 +1,19 @@
+{
+  "name": "chat_rooms",
+  "version": "1.0.0",
+  "description": "- New library chakra UI - 3 schemas using refs  - Build in Vite - I learned how to attach an image to my models which is key for my dive project also. - Chakra UI is importing containers, a container based CSS library, for easy building",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Garrett-Productions/mern_chatApp_ChakraUI.git"
+  },
+  "author": "Garrett Turner",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Garrett-Productions/mern_chatApp_ChakraUI/issues"
+  },
+  "homepage": "https://github.com/Garrett-Productions/mern_chatApp_ChakraUI#readme"
+}
