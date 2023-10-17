@@ -1,11 +1,11 @@
-import { useState } from 'react'
 import './App.css'
+import { Button } from "@chakra-ui/button"
 
 function App() {
 
   return (
     <>
-  <h1>hey</h1>
+    <Button colorScheme='blue'>HEY</Button>
     </>
   )
 }
