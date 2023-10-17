@@ -11,7 +11,7 @@ First check Point
 * 8 min on https://www.youtube.com/watch?v=ypJqtQ3xr7M&list=PLKhlp2qtUcSZsGkxAdgnPcHioRr-4guZf&index=5
 - My small issue is the port when I have both front and back end
 - Gonna go back to previous video  to make sure I set up my dotenv file port correctly
-
+****Reconfiguring to build in CRA for sake of tutoiral
 
 
 Notes w Full Stack
