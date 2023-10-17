@@ -5,7 +5,8 @@ function App() {
 
   return (
     <>
-      <Button colorScheme='teal'>HEY</Button>
+      <Route path='/' />
+      <Route path="/chats" />
     </>
   )
 }
