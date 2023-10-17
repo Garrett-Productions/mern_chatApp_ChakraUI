@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-    <Button colorScheme='blue'>HEY</Button>
+      <Button colorScheme='teal'>HEY</Button>
     </>
   )
 }
