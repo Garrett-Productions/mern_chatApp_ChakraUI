@@ -12,7 +12,7 @@ app.get('/api/chat', (req,res)=> {
 })
 
 app.get("/api/chat/:id", (req,res)=> {
-    console.log(req)
+    // console.log(req.params.id)
 })
 
 app.listen(5173, console.log("Server on port 5173"));
