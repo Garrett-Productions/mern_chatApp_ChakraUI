@@ -13,6 +13,9 @@ app.get('/api/chat', (req,res)=> {
 
 app.get("/api/chat/:id", (req,res)=> {
     // console.log(req.params.id)
+    const singlechat = chats.find(c => c._id === req.params.id);
+    res.send(singlechat)
+
 })
 
 app.listen(5173, console.log("Server on port 5173"));
