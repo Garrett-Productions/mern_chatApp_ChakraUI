@@ -15,4 +15,4 @@ First check Point
 
 
 Notes w Full Stack
-- BackEnd on 5001, Front End on 3000
+- BackEnd on 5001, Front End on 3000 
