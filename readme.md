@@ -17,4 +17,4 @@ First check Point
 Notes w Full Stack
 - BackEnd on 5001, Front End on 3000 
 - we added a proxy to the front end for cors 
-- npm react-router-dom in client
+- npm react-router-dom in client, wrapped our app in broweserRouter
