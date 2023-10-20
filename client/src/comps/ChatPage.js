@@ -1,5 +1,6 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import axios from 'axios'
+
 
 const ChatPage = () => {
   const [chats, setChats] = useState([])
@@ -9,14 +10,13 @@ const ChatPage = () => {
     console.log(data)
     setChats(data)
   };
+
   useEffect(()=> {
     fetchChats();
-  }, [])
-  return (
-    <div>
-      {chats.map()}
-    </div>
-  )
+  }, []);
+
+  return <div>{chats.map((chat) => {<div>{chat.chatName}</div>})}</div>;
+  
 }
 
 export default ChatPage
